@@ -1,5 +1,4 @@
 #include <stdarg.h>
-#include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
 #define putchar(x) write(1, chardup(x), 1);
